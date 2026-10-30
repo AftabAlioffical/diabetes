@@ -1,0 +1,4 @@
+set,records,percent_of_data,diabetes_cases,diabetes_rate
+Training,251095,60.0,35872,14.29
+Calibration,83698,20.0,11957,14.29
+Test,83699,20.0,11957,14.29

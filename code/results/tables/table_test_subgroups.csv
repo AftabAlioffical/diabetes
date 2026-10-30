@@ -1,0 +1,9 @@
+age_band,sex_label,records,diabetes_cases,diabetes_rate
+18-34,Female,6512,145,2.23
+18-34,Male,7672,137,1.79
+35-49,Female,8076,584,7.23
+35-49,Male,7722,495,6.41
+50-64,Female,11071,1768,15.97
+50-64,Male,9751,1801,18.47
+65+,Female,17472,3434,19.65
+65+,Male,13940,3394,24.35

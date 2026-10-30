@@ -1,0 +1,25 @@
+# documents (proposal, paper, concept ideas)
+*.docx
+*.doc
+*.pdf
+~$*
+
+# but keep the figure PDFs made by the notebooks
+!code/results/figures/*.pdf
+
+# editor and system files
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# virtual environment
+.venv/
+venv/
+code/venv/
+
+# kagglehub download marker
+code/data/raw/.complete/
+
+# secrets
+.env

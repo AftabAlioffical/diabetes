@@ -1,0 +1,13 @@
+run,model,setting,cv_roc_auc,cv_roc_auc_std,cv_log_loss,best_params,minutes
+lr_none,Logistic Regression,none,0.8215,0.0025,0.3243,{'C': 0.001},0.2
+lr_weighted,Logistic Regression,weighted,0.8216,0.0025,0.5272,{'C': 0.001},0.1
+lr_oversampled,Logistic Regression,oversampled,0.8216,0.0025,0.5272,{'C': 0.001},0.2
+dt_none,Decision Tree,none,0.8159,0.0028,0.3316,"{'min_samples_leaf': 200, 'max_depth': 10}",0.3
+dt_weighted,Decision Tree,weighted,0.8165,0.0031,0.5317,"{'min_samples_leaf': 200, 'max_depth': 10}",0.2
+dt_oversampled,Decision Tree,oversampled,0.8164,0.003,0.5291,"{'min_samples_leaf': 200, 'max_depth': 10}",0.3
+rf_none,Random Forest,none,0.8273,0.0029,0.3197,"{'min_samples_leaf': 20, 'max_features': 'sqrt', 'max_depth': 20}",11.1
+rf_weighted,Random Forest,weighted,0.8275,0.0029,0.5073,"{'min_samples_leaf': 20, 'max_features': 'sqrt', 'max_depth': 20}",7.2
+rf_oversampled,Random Forest,oversampled,0.8275,0.0027,0.4936,"{'min_samples_leaf': 20, 'max_features': 'sqrt', 'max_depth': 20}",17.1
+xgb_none,XGBoost,none,0.83,0.0024,0.3168,"{'subsample': 0.8, 'n_estimators': 600, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.8}",1.5
+xgb_weighted,XGBoost,weighted,0.8298,0.0023,0.5113,"{'subsample': 1.0, 'n_estimators': 400, 'min_child_weight': 5, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.8}",1.5
+xgb_oversampled,XGBoost,oversampled,0.8297,0.0023,0.5096,"{'subsample': 0.8, 'n_estimators': 600, 'min_child_weight': 1, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.8}",2.5

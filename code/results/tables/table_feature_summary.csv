@@ -1,0 +1,19 @@
+,no_diabetes_mean,diabetes_mean,missing_percent
+High blood pressure,0.35,0.735,0.393
+High cholesterol,0.374,0.643,12.764
+Cholesterol check,0.891,0.984,6.109
+BMI,27.865,31.612,9.298
+Smoker,0.374,0.456,5.203
+Stroke,0.033,0.097,0.275
+Heart disease,0.064,0.205,0.974
+Physical activity,0.78,0.599,0.277
+Cost barrier,0.085,0.083,0.334
+Difficulty walking,0.125,0.357,4.098
+Health insurance,0.941,0.971,4.29
+General health,2.491,3.284,0.276
+Poor mental health days,4.214,4.917,1.821
+Poor physical health days,3.858,7.915,2.426
+Sex (male),0.471,0.493,0.0
+Age group,7.388,9.65,1.768
+Education,3.105,2.858,0.513
+Income,4.63,3.99,19.919
